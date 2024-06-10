@@ -1,0 +1,150 @@
+* *::before *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 80%;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style:oblique;
+
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  grid-template-rows: 200px 200px 200px 150px 150px 120px 200px;
+  gap: 20px;
+  padding: 20px;
+  background: #a7bce2;
+}
+
+h1 {
+  text-align: center;
+  font-size: 150px;
+  margin: -20px;
+  text-shadow: 1 1 1 rgba(10px, 10, 10, 10);
+  color: #264b34;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(10px, 10, 10, 10);
+  color: rgb(20, 22, 21);
+    
+}
+h3 {
+  text-align: left;
+  text-shadow: 1px 1px 10px rgba(10px, 10, 10, 10);
+}
+h4 {
+  text-align: left;
+  text-shadow: 1px 1px 10px rgba(10px, 10, 10, 10);
+}
+h5 {
+  font-style: italic;
+  font-size: 30px;
+}
+
+
+
+.text1{
+
+    margin-left: 10px;
+    padding: 55px;
+    color: rgb(255, 255, 255);
+    text-shadow: 99px 99px 200px rgba(1, 1, 10, 0.5);
+  
+}
+
+
+.text2{
+
+
+    margin-left: 10px;
+    padding: 55px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgba(151, 127, 127, 0.5);
+  
+}
+
+.item3 p,
+.item4 p {
+  font-size: 1.2rem;
+}
+
+header {
+  grid-area: 1/1/2/3;
+  font-size: 0.5rem;
+  text-align: center;
+  line-height: 200px;
+  background: rgb(126, 228, 231);
+  border-radius: 30px;
+}
+.item1 {
+  grid-area: 2/1/4/2;
+  background-image: url(./images/27ea5290-2816-4807-ad2e-3520c956dc73.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -900px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: left;
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: 900;
+}
+.item2 {
+  grid-area: 4/1/7/2;
+
+  background: white;
+  background-image: url(./images/ecfa994f-d2b9-44c7-9245-5ac06edf258b.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -690px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: left;
+  font-size: 2.7rem;
+  font-style: oblique;
+  font-weight: 900;
+}
+.item3 {
+  grid-area: 2/2/3/3;
+  background: white;
+}
+.item4 {
+  grid-area: 3/2/5/3;
+  background: white;
+ 
+}
+
+img {
+  height: 140px;
+  width: 185px;
+  max-width: 100rem;
+  padding: 35px;
+  margin: -30px;
+  margin-top: -40px;
+  margin-left: 10px;
+}
+
+footer {
+  grid-area: 7/1/8/3;
+  text-align: center;
+  line-height: 100px;
+  background: #87b49b;
+  border-radius: 30px;
+}
+.me {
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+}
